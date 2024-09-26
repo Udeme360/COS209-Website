@@ -3,49 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <meta name="description" content="Contact us to find your dream home or investment property. We're here to assist with all your real estate needs.">
+    <title>Contact Us - Real Estate</title>
     <link rel="stylesheet" href="contactus.css">
 </head>
-<body >
-    
-<div><img src="WhatsApp Image 2024-09-24 at 21.24.34_bb8b130b.jpg" alt="picture" width="100%" height="200px">
-</div>
+<body>
 
-    <h1 style="text-align: center;color: cornflowerblue;">CONTACT US</h1>
-    <div class="container">
-        <div class="left">
-            <h1 style="color: rgb(11, 109, 109)">We'd Love To Hear From You</h1>
+    <header>
+        <h1>Contact Us</h1>
+        <p>Your next property investment starts here. Reach out to us today!</p>
+    </header>
 
-            <p>
-              Whether your curious on how to acquire a house ,pay for a house or get a lease for<br />
-              an apartment -we're ready to answer any and all questions
-            </p>
-    
-     
-    
-            <h1 style="color: rgb(11, 109, 109)">Meet Us</h1>
-            <p>Feel free to reach out to us using the contact information below:</p>
-    
-            <ul style="list-style-type: square">
-              <li><a href="mailto:Therealestate@yahoo.com">Send email</a></li>
-              <li>Phone:07198773456</li>
-          <li>
-            <a href="https://www.google.com/maps? q=12a akintunde estate,Ikeja." target="_blank">Address:12a akintunde estate,Ikeja</a>
-          </li>
-
-        </ul>
+    <section id="contact-info">
+        <div class="contact-method">
+            <i class="fas fa-phone"></i>
+            <h2>Phone</h2>
+            <p>Call or WhatsApp us from Monday to Friday, 9 AM to 6 PM</p>
+            <a href="tel:+2347484855891">+234-748-485-5891</a>
         </div>
-        <div></div>
-        <div class="right">
-            <img
 
-            src="WhatsApp Image 2024-09-24 at 19.51.34_6bb186ee.jpg" alt="picture" width="40%" height="200px">
+        <div class="contact-method">
+            <i class="fas fa-envelope"></i>
+            <h2>Email</h2>
+            <p>Send us an email and we will get back to you within 24 hours</p>
+            <a href="mailto:info@yourrealestate.com">info@yourrealestate.com</a>
         </div>
-    </div>
-    <p>&copy; 2024 Real Estate Services. All rights reserved.</p>
+
+        <div class="contact-method">
+            <i class="fas fa-map-marker-alt"></i>
+            <h2>Visit Us</h2>
+            <p>Drop by our office for a face-to-face consultation</p>
+            <p>23 Luxury Avenue, Suite 100, Lagos, Nigeria</p>
+        </div>
+    </section>
+
+    <section id="contact-form-section">
+        <h2>Send Us a Message</h2>
+        <form id="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number (Optional)">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="map">
+        <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=1234xyz"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
 
     <footer>
-        Worked on by Tofunmi (23/2095), Ayomikun and David(23/0493)
+        <p>&copy; 2024 Your Real Estate Company | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </footer>
+    <script src="contactus.js"></script>
 </body>
 </html>
