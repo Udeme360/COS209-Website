@@ -1,0 +1,120 @@
+.content{
+    background-color:lightblue;
+    background: linear-gradient(to bottom,  #020111dc, #fcfcfc, #020013dc );
+    min-height: 400px;
+    display:flex;
+    border: 8px solid rgb(4, 24, 54);
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap ;
+    align-content: center;
+    height: 95vh;
+ }
+ .head {
+    text-align: center; 
+    margin: 10px; 
+}
+
+.head h1 {
+    margin-bottom: 20px; 
+}
+
+.head p {
+    margin: 0; 
+}
+
+
+ .boxes{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1em;
+ }
+ .box1{
+    height: 150px;
+    width: 160px;
+    background-color: azure;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom, #1810819c, #496163)
+  }
+ 
+  .box2{
+    height: 150px;
+    width: 160px;
+    background-color: azure;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom, #0603359c, #0aaab6)
+  }
+  .box3{
+    height: 150px;
+    width: 160px;
+    background-color: azure;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom,  #1810819c, #496163)
+  }
+  .box4{
+    height: 150px;
+    width: 160px;
+    background-color:azure ;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom, #0603359c, #0aaab6)
+  }
+  .box5{
+    height: 150px;
+    width: 160px;
+    background-color:azure ;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom,  #1810819c, #496163)
+  }
+  .box6{
+    height: 150px;
+    width: 160px;
+    background-color:azure ;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom, #0603359c, #0aaab6)
+    
+  }
+  .box7{
+    height: 150px;
+    width: 160px;
+    background-color: azure;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(to bottom, #1810819c, #496163)
+  }
+
+  footer{
+    display: block;
+  }
